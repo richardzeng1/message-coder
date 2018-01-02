@@ -40,7 +40,8 @@ The two components of the assignment were:
       &nbsp; 3. If the message cannot be encoded, an error message is printed to stderr and program will <br />
       &nbsp;&nbsp;  return with a value of 1. <br />
                  
-Final Mark: 98.32%
+Final Mark: 98.32%. <br />
+Note: Some code was starter code written my the staff of the University of Toronto.
 
 ### **Setup**
 1. Clone this repo
