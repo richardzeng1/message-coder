@@ -43,7 +43,15 @@ The two components of the assignment were:
 Final Mark: 98.32%
 
 ### **Setup**
+1. Clone this repo
+2. $make
 
 
-## **Usage**
+### **Usage**
+#### Decode
+run $./decode <text_file> <code_file> <br />
+The decoded message is outputted to standard out. To store the message in a file, pipe the command.
 
+### Encode
+run $./encode <size> <text_file> <message> <br />
+message must be enclosed in double quotes (""). The message must be expicitly written in message.
