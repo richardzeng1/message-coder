@@ -28,6 +28,7 @@ and there cannot be any size of 0.
 
 ![](https://github.com/richardzeng1/message-coder/blob/master/images/Screen%20Shot%202018-01-02%20at%201.44.18%20AM.png)
 
+Example code. Image from the University of Toronto
 
 The two components of the assignment were:
 
