@@ -22,15 +22,25 @@ character position in the line and the third is the number of characters. The li
 and there cannot be any size of 0.
 
 The two components of the assignment were:
-Markup : 1. Decoding a message
-              Given a coded message, output the decoded message to standard output.
-         2. Encoding a message
-              Given a message, produce a code that would translate to the message. There are a few conditions:
-              1. A chunk size must be passed in as an argument and all message sizes will be of this size.
-                 The exception is when the number of characters does not divide evenly into the chunk size, then, the last
-                 bit of characters can be less than the specified size.
-              2. One line can only contain one chunk of the message.
-              3. If the message cannot be encoded, an error message is printed to stderr and program will return with a value
+
+1. Decoding a message
+
+      Given a coded message, output the decoded message to standard output.
+      
+2. Encoding a message
+
+      Given a message, produce a code that would translate to the message. There are a few conditions:
+      
+          1. A chunk size must be passed in as an argument and all message sizes will be of this size.
+          
+             The exception is when the number of characters does not divide evenly into the chunk size, then, the last
+             
+             bit of characters can be less than the specified size.
+             
+          2. One line can only contain one chunk of the message.
+          
+          3. If the message cannot be encoded, an error message is printed to stderr and program will return with a value
+          
                  of 1.
                  
 Final Mark: 98.32%
