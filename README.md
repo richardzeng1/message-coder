@@ -17,9 +17,17 @@ coded message, it would correspond to a series of characters from the text. Once
 locations were constructed into a string, a message would appear. This means that only one source of text would produce a
 valid message. 
 
+![](https://github.com/richardzeng1/message-coder/blob/master/images/Screen%20Shot%202018-01-02%20at%201.44.12%20AM.png)
+
+Example story. Image from the University of Toronto
+
+
 The coded message was comprised of 3 space separated numbers. The first is the line number, the second is the starting
 character position in the line and the third is the number of characters. The line numbers and character positions start at 0
 and there cannot be any size of 0.
+
+![](https://github.com/richardzeng1/message-coder/blob/master/images/Screen%20Shot%202018-01-02%20at%201.44.18%20AM.png)
+
 
 The two components of the assignment were:
 
@@ -41,7 +49,7 @@ The two components of the assignment were:
       &nbsp;&nbsp;  return with a value of 1. <br />
                  
 Final Mark: 98.32%. <br />
-Note: Some code was starter code written my the staff of the University of Toronto.
+Note: Some code was starter code written by the staff of the University of Toronto.
 
 ### **Setup**
 1. Clone this repo
