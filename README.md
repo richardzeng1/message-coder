@@ -30,12 +30,15 @@ The two components of the assignment were:
 2. Encoding a message
 
       Given a message, produce a code that would translate to the message. There are a few conditions: <br />
-          &nbsp; 1. A chunk size must be passed in as an argument and all message sizes will be of this size. <br />
-             &nbsp;&nbsp;  The exception is when the number of characters does not divide evenly into the chunk size, <br />
-             &nbsp;&nbsp;  then, the last bit of characters can be less than the specified size. <br />
-          &nbsp; 2. One line can only contain one chunk of the message. <br />
-          &nbsp; 3. If the message cannot be encoded, an error message is printed to stderr and program will <br />
-             &nbsp;&nbsp;  return with a value of 1. <br />
+  
+&nbsp; 1. A chunk size must be passed in as an argument and all message sizes will be of this size. <br />
+&nbsp;&nbsp;  The exception is when the number of characters does not divide evenly into the chunk size, <br />
+&nbsp;&nbsp;  then, the last bit of characters can be less than the specified size. <br />
+
+&nbsp; 2. One line can only contain one chunk of the message. <br />
+
+&nbsp; 3. If the message cannot be encoded, an error message is printed to stderr and program will <br />
+&nbsp;&nbsp;  return with a value of 1. <br />
                  
 Final Mark: 98.32%
 
